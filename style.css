@@ -1,6 +1,6 @@
  .container {
   width: 350px;
-  height: 350px;
+  height: 300px;
   border-radius: 20px;
   margin-bottom: 5px;
   padding: 20px;
@@ -14,30 +14,38 @@
 
 
 .b1 {
+  width: 350px;
+  height: 100px;
   background-color: blue;
-  border-radius: 10px;
-  height: 100px;   
+  border-radius: 10px;  
 }
 
 
-.b2 {
+.b2 {  
+  width: 100px;
+  height: 190px;
   background-color: blue;
   border-radius: 10px;
-  flex: 1;   
+  margin-right: 10px;
+
 }
 
 
 .b3 {
+  width: 100px;
+  height: 100px;
   background-color: blue;
   border-radius: 10px;
-  flex: 1; 
-  margin-right: 20px;  
+  margin-right: 20px; 
+  margin-top: 10px; 
 }
 .b4 {
+  width: 100px;
+  height: 100px;
   background-color: blue;
   border-radius: 10px;
   margin-left: 20px;
-  flex: 1; 
+  margin-top: 10px;
  }
 
 
@@ -50,21 +58,15 @@
 
 .Columna {
   display: flex;
-  flex: 1;
-  gap: 10px;
 }
 
 
 .derecha {
   display: flex;
   flex-direction: column;
-  flex: 2;
-  gap: 10px;
 }
 
 
 .abajo {
   display: flex;
-  gap: 10px;
-  flex: 1;
 }
